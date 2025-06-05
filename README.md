@@ -28,6 +28,7 @@ npm run dev
 ```
 src/app/resources/config
 ```
+This is where variables such as routes (pages), password protected pages, general stylings (themes, fonts), mailchimp, and SEO baseURL
 
 **5. Edit content**
 ```
