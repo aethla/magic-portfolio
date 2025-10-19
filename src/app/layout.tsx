@@ -20,6 +20,27 @@ export async function generateMetadata() {
   });
 }
 
+/*export const metadata = {
+    icons: {
+        icon: [
+                {
+                  url: '/light-icon.png',
+                  media: '(prefers-color-scheme: light)',
+                },
+                {
+                  url: '/dark-icon.png',
+                  media: '(prefers-color-scheme: dark)',
+                },
+              ],
+        apple: '/apple-icon.png',
+        other: {
+            rel: 'apple-touch-icon-precomposed',
+            url: '/apple-icon-precomposed.png',
+        },
+        shortcut: '/shortcut-icon.png',
+    },
+}; */
+
 interface RootLayoutProps {
   children: React.ReactNode;
 }

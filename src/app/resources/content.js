@@ -51,20 +51,19 @@ const social = [
 
 const home = {
   path: "/",
-  image: "/images/og/home.jpg",
+  image: "/images/og/home.jpg", //check how to generate or where it shows up
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building stories, applications, and relationships</>,
-  featured: {
-    display: true,
+  headline: <>Hi there, I'm Althea!</>,
+  featured: { //this is the highlight button in homepage
+    display: false,
     title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
     href: "/work/building-once-ui-a-customizable-design-system",
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon={false} style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I like building stories, applications, and relationships.
     </>
   ),
 };
@@ -90,9 +89,8 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Althea is a Dubai-based builder with a passion for design and technology. With a background in computer science and a keen eye for aesthetics, she creates intuitive and engaging user experiences.
+        Althea is currently focused on building innovative solutions that bridge the gap between creativity and functionality.
       </>
     ),
   },
